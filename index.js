@@ -1,5 +1,10 @@
-
-
+var array = ["yash","vandan","bhavya","arth","hiten","satyendra"]
+var div_string
+var box = document.getElementById("box");
+array.forEach(element => {
+    div_string = `<div class='col-3'>${element}</div>`;
+    box.innerHTML +=div_string;
+});
 
 
 
